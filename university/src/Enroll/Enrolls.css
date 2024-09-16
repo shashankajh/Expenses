@@ -1,0 +1,114 @@
+.enrolls-container {
+  position: relative;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.enrolls-heading {
+  margin-bottom: 20px;
+  color: #1f5c9d;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enrolls-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.enrolls-table th,
+.enrolls-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.enrolls-table th {
+  background-color: #f2f2f2;
+}
+
+.enrolls-options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Position to the left side */
+  padding: 2px 5px;
+  font-size: 14px; /* To set the Display student option txt size */
+}
+
+.enrolls-options label {
+  margin-right: 5px;
+}
+
+.enrolls-options select {
+  padding: 1px;
+}
+
+.pagination {
+  margin-top: auto; /* Push pagination to the bottom */
+  display: flex;
+  justify-content: space-between; /* Spread items evenly */
+  align-items: center;
+  background-color: #b3cae3c9; /* Background color for pagination */
+  padding: 3px 20px; /* Adjust padding */
+  border-radius: 3px;
+}
+
+.page_btn {
+  display: flex;
+  align-items: center;
+}
+
+.pagination-btn {
+  background-color: #82b8ef;
+  color: #fff;
+  border: none;
+  padding: 2px 8px;
+  margin: 0 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pagination-btn:hover {
+  background-color: #1e64ae;
+}
+
+.pagination-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.actives {
+  background-color: #1f5c9d;
+}
+
+.search-bar{
+  margin-top: auto; /* Push pagination to the bottom */
+  display: flex;
+  justify-content: space-between; /* Spread items evenly */
+  align-items: center;
+  background-color: #c4d8efaf; /* Background color for pagination */
+  padding: 3px 20px; /* Adjust padding */
+  border-radius: 3px;
+  height: 45px;
+}
+
+.search{
+  border: none;
+  padding: 5px 8px;
+  margin: 0 3px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+}
+
+.opt_txt{
+  font-size: 13px; /* To set the Display dropdown txt size */
+}
